@@ -30,13 +30,13 @@ Repeat the same steps for PC1
 This time on PC1 we can see that the IPv4 address and the subnet mask are correct but the gateway seems off
 ![alt text](images/image-4.png)
 
-To be sure that this is an error, we will go look directyl inside the router
+To be sure that this is an error, we will go look diretcly inside the router
 
 Following these commands, we see that the gateway used on PC1 is different from the IPv4 address on the port G0/0/1 on the router.
 
 ![alt text](images/image-5.png)
 
-Now that we are sure that the configuration on PC1 is false, we can change the default gateway to *192.168.2.1* and the ping will now work!
+Now that we are sure that the configuration on PC1 is incorrect, we can change the default gateway to *192.168.2.1* and the ping will now work!
 
 
 #### **Solution made by itsal3xis**
